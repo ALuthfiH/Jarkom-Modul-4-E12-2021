@@ -423,8 +423,9 @@ Pertama-tama menentukan inisialisai nama subnet dari Topologi yang sudah ada, la
 ![frame4](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%204.png)
 ![frame5](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%205.png)
 ![frame6](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%206.png)
-![frame8](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%208.png)
 ![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%2010.png)  
+![frame8](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%208.png)
+
   
 ### Menghitung NID Menggunakan Pohon Faktor
   
