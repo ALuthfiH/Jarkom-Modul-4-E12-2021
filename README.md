@@ -412,9 +412,11 @@ Bisa dilihat bahwa node berhasil ping ke youtube.com
 
 <hr/>
   
-## CIDR
+## CIDR (Cisco Packet Tracer)
   
 ### Menentukan masing-masing Subnet dari Topologi yang Sudah Ditentukan  
+  
+Pertama-tama menentukan inisialisai nama subnet dari Topologi yang sudah ada, lalu melakukan pengelompokan mulai dari subnet yang paling jauh dari router pusat(pengakses internet), pengelompokan hingga membentuk 1 kelompok dalam seluruh topology. urutan sebagai berikut:  
 ![frame1](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%201.png)
 ![frame2](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%202.png)
 ![frame3](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%203.png)
@@ -422,11 +424,27 @@ Bisa dilihat bahwa node berhasil ping ke youtube.com
 ![frame5](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%205.png)
 ![frame6](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%206.png)
 ![frame8](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%208.png)
-![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%2010.png)
-
+![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%2010.png)  
+  
 ### Menghitung NID Menggunakan Pohon Faktor
-![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%209.png)
+  
+Setelah itu menghitung pembagian IP berdasarkan NID dan netmask tersebut menggunakan pohon faktor lalu kita dapat melakukan subnetting sehinggan pembagian nama IP dapat diambil sesuai dengan kebutuhan masing-masing client. gambar sebagai berikut:  
+![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%209.png)  
+akan didapatkan pembagian IP sebagai berikut:  
+![image](https://user-images.githubusercontent.com/75328763/143684474-79b08418-1559-408f-b6fb-e74573c319f1.png)  
+![image](https://user-images.githubusercontent.com/75328763/143684589-bd482295-0dee-4132-b390-eeaac2275bb9.png)  
   
 ### Routing CIDR pada CPT  
   
+Berikut adalah setting route pada router menggnuakan CPT:  
+* Foosha:  
+* WATER7:  
+* PUCCI:  
+* GUANHAO:  
+* OIMO: 
+* ALABASTA:
+* SEASTONE: 
+  
+### Kesimpulan  
+Kesimpulan yang kami dapat terkait perbedaan teknik CIDR dan teknik VLSM adalah teknik CIDR lebih mudah untuk melakukan pe-routing-an karena penamaan NID sudah saling dikelompokkan pada masing masing router sehingga cukup melakukan routing pada router level bawah(child). Sedangkan teknik VLSM lebih baik dikarenakan ke efesiansi dan kehematan penggunaan NID sesuai dengan jumlah kuota nama IP yang hasanya dibutuhkan saja, sehingga tidak mengakibatkan keborosan nama IP.
   
