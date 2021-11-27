@@ -337,6 +337,59 @@ iface eth0 inet static
 	netmask 255.255.252.0
 	gateway 10.35.20.1
 ```
+### Routing 
+Setelah kita melakukan konfigurasi kita melakukan Routing pada tiap-tiap router seperti berikut
+
+* Foosha
+```
+Subnet sebelah kiri topologi arah ke Water7
+route add -net 10.35.8.0 netmask 255.255.252.0 gw 10.35.27.146
+route add -net 10.35.27.0 netmask 255.255.255.128 gw 10.35.27.146
+route add -net 10.35.0.0 netmask 255.255.248.0 gw 10.35.27.146
+route add -net 10.35.27.148 netmask 255.255.255.252 gw 10.35.27.146
+
+Subnet sebelah bawah topologi arah ke Guanhao
+route add -net 10.35.16.0 netmask 255.255.252.0 gw 10.35.27.158
+route add -net 10.35.27.128 netmask 255.255.255.240 gw 10.35.27.158
+route add -net 10.35.27.164 netmask 255.255.255.252 gw 10.35.27.158
+route add -net 10.35.24.0 netmask 255.255.252.0 gw 10.35.27.158
+route add -net 10.35.20.0 netmask 255.255.252.0 gw 10.35.27.158
+route add -net 10.35.26.0 netmask 255.255.255.0 gw 10.35.27.158
+route add -net 10.35.27.160 netmask 255.255.255.252 gw 10.35.27.158
+```
+* Water7
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.27.145
+route add -net 10.35.27.0 netmask 255.255.255.128 gw 10.35.27.150
+route add -net 10.35.0.0 netmask 255.255.248.0 gw 10.35.27.150
+route add -net 10.35.27.148 netmask 255.255.255.252 gw 10.35.27.150
+```
+* Pucci
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.27.149
+```
+* Guanhao
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.27.157
+route add -net 10.35.26.0 netmask 255.255.255.0 gw 10.35.27.162
+route add -net 10.35.20.0 netmask 255.255.252.0 gw 10.35.27.162
+route add -net 10.35.27.164 netmask 255.255.255.252 gw 10.35.27.162
+route add -net 10.35.27.128 netmask 255.255.255.240 gw 10.35.24.3
+route add -net 10.35.27.160 netmask 255.255.255.252 gw 10.35.27.162
+```
+* Alabasta
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.24.1
+```
+* Oimo
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.27.161
+route add -net 10.35.20.0 netmask 255.255.252.0 gw 10.35.26.3
+```
+* Seastone
+```
+route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.26.1
+```
 
 <hr/>
   
