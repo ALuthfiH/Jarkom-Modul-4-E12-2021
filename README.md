@@ -43,6 +43,12 @@ Setelah terbagi kita menghitung jumlah IP yang diperlukan dengan menghitung tiap
 | A15    | seastone-elena            | 721       | /22     |
 | total  |                           | 5845      | /19     |
 
+Berdasarkan perhitungan kami di table tersebut, jumlah ip yang didapatkan adalah `5845` dan root menggunakan netmask `/19`. Setelah kita menentukan itu, kita menyusun pohon subnet seperti berikut
+
+![10 35 0 0-19](https://user-images.githubusercontent.com/55140514/143682331-c6c5f36d-4d19-4bb9-8014-f921a6b136c5.png)
+
+
+
 <hr/>
   
 ## CIDR
