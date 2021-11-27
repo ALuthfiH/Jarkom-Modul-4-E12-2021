@@ -396,10 +396,17 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.26.1
 ## CIDR
   
 ### Menentukan masing-masing Subnet dari Topologi yang Sudah Ditentukan  
-  
-  
+![frame1](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%201.png)
+![frame2](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%202.png)
+![frame3](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%203.png)
+![frame4](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%204.png)
+![frame5](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%205.png)
+![frame6](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%206.png)
+![frame8](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%208.png)
+![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%2010.png)
+
 ### Menghitung NID Menggunakan Pohon Faktor
-  
+![frame10](https://raw.githubusercontent.com/ALuthfiH/Jarkom-Modul-4-E12-2021/main/CIDR/Frame%209.png)
   
 ### Routing CIDR pada CPT  
   
