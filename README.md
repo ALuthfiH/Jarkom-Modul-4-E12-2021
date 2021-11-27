@@ -68,7 +68,61 @@ Dengan sudah tersusunnya pohon tersebut maka kita bisa mendapatkan **NID** masin
 | A15    | seastone-elena            | 721       | /22     | 10.35.20.0   |
 | Total  |                           | 5845      | /19     |              |
 
+Langkah selanjutnya adalah kita membuat topologi pada **GNS3** sesuai dengan keinginan soal. Untuk Topologi pada **GNS3** berbeda dimana diantara semua node akan digunakan *Switch*. Hasil topologi seperti berikut
 
+![image](https://user-images.githubusercontent.com/55140514/143682652-b2c36d19-1551-40c9-b8ed-507b5c14734b.png)
+
+Setelah terbuat topologi nya, kita lanjut dengan melakukan konfigurasi setiap node. Sebelum itu, kita melakukan `Pembagian IP` lagi untuk IP tiap Node seperti berikut
+
+| Subnet | Node       | IP           | Subnet Mask     | Length |
+|--------|------------|--------------|-----------------|--------|
+| A1     | Foosha     | 10.35.27.145 | 255.255.255.252 | /30    |
+|        | Water7     | 10.35.27.146 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A2     | Water7     | 10.35.8.1    | 255.255.252.0   | /22    |
+|        | Cipher     | 10.35.8.2    | 255.255.252.0   |        |
+|        |            |              |                 |        |
+| A3     | Water7     | 10.35.27.149 | 255.255.255.252 | /30    |
+|        | Pucci      | 10.35.27.150 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A4     | Pucci      | 10.35.27.1   | 255.255.255.128 | /25    |
+|        | Jipanggu   | 10.35.27.2   | 255.255.255.128 |        |
+|        |            |              |                 |        |
+| A5     | Pucci      | 10.35.0.1    | 255.255.248.0   | /21    |
+|        | Courtyard  | 10.35.0.2    | 255.255.248.0   |        |
+|        | Calmbelt   | 10.35.0.3    | 255.255.248.0   |        |
+|        |            |              |                 |        |
+| A6     | Foosha     | 10.35.12.1   | 255.255.252.0   | /22    |
+|        | Blueno     | 10.35.12.2   | 255.255.252.0   |        |
+|        |            |              |                 |        |
+| A7     | Foosha     | 10.35.27.153 | 255.255.255.252 | /30    |
+|        | Doriki     | 10.35.27.154 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A8     | Foosha     | 10.35.27.157 | 255.255.255.252 | /30    |
+|        | Guanhao    | 10.35.27.158 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A9     | Guanhao    | 10.35.16.1   | 255.255.252.0   | /22    |
+|        | Jabra      | 10.35.16.2   | 255.255.252.0   |        |
+|        |            |              |                 |        |
+| A10    | Guanhao    | 10.35.24.1   | 255.255.254.0   | /23    |
+|        | Maingate   | 10.35.24.2   | 255.255.254.0   |        |
+|        | Alabasta   | 10.35.24.3   | 255.255.254.0   |        |
+|        |            |              |                 |        |
+| A11    | Alabasta   | 10.35.27.129 | 255.255.255.240 | /28    |
+|        | Jorge      | 10.35.27.130 | 255.255.255.240 |        |
+|        |            |              |                 |        |
+| A12    | Guanhao    | 10.35.27.161 | 255.255.255.252 | /30    |
+|        | Oimo       | 10.35.27.162 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A13    | Oimo       | 10.35.26.1   | 255.255.255.0   | /24    |
+|        | EniesLobby | 10.35.26.2   | 255.255.255.0   |        |
+|        | Seastone   | 10.35.26.3   | 255.255.255.0   |        |
+|        |            |              |                 |        |
+| A14    | Oimo       | 10.35.27.165 | 255.255.255.252 | /30    |
+|        | Fukurou    | 10.35.27.166 | 255.255.255.252 |        |
+|        |            |              |                 |        |
+| A15    | Seastone   | 10.35.20.1   | 255.255.252.0   | /22    |
+|        | Elena      | 10.35.20.2   | 255.255.252.0   |        |
 
 <hr/>
   
