@@ -391,6 +391,25 @@ route add -net 10.35.20.0 netmask 255.255.252.0 gw 10.35.26.3
 route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.35.26.1
 ```
 
+
+### Testing
+Disini kita melakukan 2 testing. Satu untuk antar node dan satu lagi untuk ke jaringan luar. 
+* Yang pertama kita melakukan `ping` node `Elena` dari node `Jipanggu`.  Untuk melakukannya ping tersebut mengarah ke IP Elena yaitu `10.35.20.2`
+
+![image](https://user-images.githubusercontent.com/55140514/143684279-7ff4e4be-d3a1-4cc4-a8ce-de22986c5261.png)
+
+Bisa dilihat bahwa node Jipanggu berhasil melakukan ping ke node Elena
+
+* Yang kedua kita lakukan `ping` ke `youtube.com` dari node `Elena` seperti berikut
+
+![image](https://user-images.githubusercontent.com/55140514/143684375-b2212c68-f690-4caf-a3f2-4d51ef7c9eff.png)
+ 
+Bisa dilihat bahwa node berhasil ping ke youtube.com
+
+### Notes
+* Pastikan bahwa semua node sudah terhubung dengan internet dengan perintah `echo nameserver 192.168.122.1 > /etc/resolv.conf`
+* Pastikan pada testing bahwa semua node berhasil melakukan testing seperti testing sebelumnya
+
 <hr/>
   
 ## CIDR
