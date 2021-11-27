@@ -110,6 +110,235 @@ Setelah terbuat topologi nya, kita lanjut dengan melakukan konfigurasi setiap no
 | A15    | Seastone   | 10.35.20.1   | 255.255.252.0   | /22    |
 |        | Elena      | 10.35.20.2   | 255.255.252.0   |        |
 
+Lalu untuk konfigurasi tiap node seperti berikut
+* Foosha
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+	address 10.35.12.1
+	netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+	address 10.35.27.145
+	netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+	address 10.35.27.153
+	netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+	address 10.35.27.157
+	netmask 255.255.255.252
+```
+  
+* Water7
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.146
+	netmask 255.255.255.252
+	gateway 10.35.27.145
+
+auto eth1
+iface eth1 inet static
+	address 10.35.8.1
+	netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+	address 10.35.27.149
+	netmask 255.255.255.252
+```
+  
+* Pucci
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.150
+	netmask 255.255.255.252
+	gateway 10.35.27.149
+
+auto eth1
+iface eth1 inet static
+	address 10.35.27.1
+	netmask 255.255.252.128
+
+auto eth2
+iface eth2 inet static
+	address 10.35.0.1
+	netmask 255.255.248.0
+```
+* Jipanggu
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.2
+	netmask 255.255.252.128
+	gateway 10.35.27.1
+```  
+* Courtyard
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.0.2
+	netmask 255.255.248.0
+	gateway 10.35.0.1
+```  
+* Calmbelt
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.0.3
+	netmask 255.255.248.0
+	gateway 10.35.0.1
+ ``` 
+* Cipher
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.8.2
+	netmask 255.255.252.0
+	gateway 10.35.8.1
+```  
+* Blueno
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.12.2
+	netmask 255.255.252.0
+	gateway 10.35.12.1
+```  
+* Doriki
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.154
+	netmask 255.255.255.252
+	gateway 10.35.27.153
+```
+* Guanhao
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.158
+	netmask 255.255.255.252
+	gateway 10.35.27.157
+
+auto eth1
+iface eth1 inet static
+	address 10.35.16.1
+	netmask 255.255.252.0
+
+auto eth2
+iface eth2 inet static
+	address 10.35.10.1
+	netmask 255.255.254.0
+
+auto eth3
+iface eth3 inet static
+	address 10.35.27.161
+	netmask 255.255.255.252
+```
+* Jabra
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.16.2
+	netmask 255.255.252.0
+	gateway 10.35.16.1
+```
+* Maingate
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.24.2
+	netmask 255.255.254.0
+	gateway 10.35.24.1
+```
+* Alabasta
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.24.3
+	netmask 255.255.254.0
+	gateway 10.35.24.1
+
+auto eth1
+iface eth1 inet static
+	address 10.35.27.129
+	netmask 255.255.255.240
+```
+* Jorge
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.130
+	netmask 255.255.255.240
+	gateway 10.35.27.129
+```
+* Oimo
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.162
+	netmask 255.255.255.252
+	gateway 10.35.27.161
+
+auto eth1
+iface eth1 inet static
+	address 10.35.26.1
+	netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+	address 10.35.27.165
+	netmask 255.255.255.252
+```
+* Fukurou
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.27.166
+	netmask 255.255.255.252
+	gateway 10.35.27.165
+```
+* EnniesLobby
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.26.2
+	netmask 255.255.255.0
+	gateway 10.35.26.1
+```
+* Seastone
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.26.3
+	netmask 255.255.255.0
+	gateway 10.35.26.1
+
+auto eth1
+iface eth1 inet static
+	address 10.35.20.1
+	netmask 255.255.252.0
+```
+* Elena
+```
+auto eth0
+iface eth0 inet static
+	address 10.35.20.2
+	netmask 255.255.252.0
+	gateway 10.35.20.1
+```
+
+
 <hr/>
   
 ## CIDR
