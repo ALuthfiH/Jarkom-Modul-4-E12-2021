@@ -343,4 +343,12 @@ iface eth0 inet static
   
 ## CIDR
   
+### Menentukan masing-masing Subnet dari Topologi yang Sudah Ditentukan  
+  
+  
+### Menghitung NID Menggunakan Pohon Faktor
+  
+  
+### Routing CIDR pada CPT  
+  
   
