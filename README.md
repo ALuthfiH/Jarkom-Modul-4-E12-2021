@@ -438,12 +438,19 @@ akan didapatkan pembagian IP sebagai berikut:
   
 Berikut adalah setting route pada router menggnuakan CPT:  
 * Foosha:  
+![image](https://user-images.githubusercontent.com/75328763/143684724-70b6550a-fe38-4ec8-b895-0e66990618f0.png)  
 * WATER7:  
+![image](https://user-images.githubusercontent.com/75328763/143684771-1a7e9d7d-5fc7-4d10-b10b-eb642e37e42b.png)  
 * PUCCI:  
+![image](https://user-images.githubusercontent.com/75328763/143684798-07360e91-73e2-49f9-8407-03477b5947e0.png)  
 * GUANHAO:  
-* OIMO: 
-* ALABASTA:
-* SEASTONE: 
+![image](https://user-images.githubusercontent.com/75328763/143684857-7ac75bdb-ebe6-4970-8894-52277ef71493.png)  
+* OIMO:  
+![image](https://user-images.githubusercontent.com/75328763/143684885-499fd7fe-3d69-45a7-bbd4-ac1926a5e0c6.png)  
+* ALABASTA:  
+![image](https://user-images.githubusercontent.com/75328763/143684906-bc694a8c-8c87-4729-8598-63c0d8ef8186.png)  
+* SEASTONE:  
+![image](https://user-images.githubusercontent.com/75328763/143684935-9cf89092-474b-4e4c-b31a-09e3996bad95.png)  
   
 ### Kesimpulan  
 Kesimpulan yang kami dapat terkait perbedaan teknik CIDR dan teknik VLSM adalah teknik CIDR lebih mudah untuk melakukan pe-routing-an karena penamaan NID sudah saling dikelompokkan pada masing masing router sehingga cukup melakukan routing pada router level bawah(child). Sedangkan teknik VLSM lebih baik dikarenakan ke efesiansi dan kehematan penggunaan NID sesuai dengan jumlah kuota nama IP yang hasanya dibutuhkan saja, sehingga tidak mengakibatkan keborosan nama IP.
