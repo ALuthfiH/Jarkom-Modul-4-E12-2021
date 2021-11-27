@@ -338,7 +338,6 @@ iface eth0 inet static
 	gateway 10.35.20.1
 ```
 
-
 <hr/>
   
 ## CIDR
