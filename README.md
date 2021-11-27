@@ -13,3 +13,14 @@ Address untuk Prefix IP Kelompok kami adalah `10.35`
 <hr/>
 
 ## Topologi dan Persiapan
+  
+  
+<hr/>
+  
+## VLSM
+  
+<hr/>
+  
+## CIDR
+  
+  
